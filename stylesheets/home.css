@@ -4,7 +4,8 @@ body {
 }
 
 .main-header {
-	padding-top: 30px;
+	padding-top: 15px;
+    padding-bottom: 15px;
 	background-color: black;
 }
 	nav {
@@ -49,11 +50,13 @@ body {
 
 .skills {
 	height: 100vh;
-	background-color: #1f1f1f;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	color: white;
 }
+
+	.skills-header {
+		margin-bottom: 60px;
+	}
 
 	.skills-container {
 		width: 80%;
@@ -65,6 +68,12 @@ body {
 	.skills-images {
 		display: flex;
 		flex-direction: row;
+		justify-content: space-between;
+		margin-bottom: 75px;
+	}
+
+	.skills-images img {
+		height: 125px;
 	}
 
 .portfolio {
@@ -76,6 +85,10 @@ body {
 	color: white;
 }
 
+	.portfolio-header {
+		margin-bottom: 75px;
+	}
+
 	.portfolio-container {
 		width: 80%;
 		margin: auto;
@@ -86,6 +99,13 @@ body {
 	.projects-container {
 		display: flex;
 		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.projects-container img {
+		height: 257px;
+		border: solid black 2px;
+		cursor: pointer;
 	}
 
 .resume {
@@ -96,6 +116,27 @@ body {
 	padding-bottom: 100px;
 	color: white;
 }
+
+	.resume-header {
+		margin-bottom: 80px;
+	}
+
+	.resume-download {
+		width: 240px;
+		height: 100px;
+		margin: auto;
+		padding-top: 35px;
+		background-color: green;
+		border-radius: 20px;
+		border: none;
+		font-size: 30px;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	.resume-download a:visited {
+		color: white;
+	}
 
 	.resume-container {
 		width: 80%;
