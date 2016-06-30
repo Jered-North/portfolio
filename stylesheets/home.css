@@ -48,6 +48,15 @@ body {
 	padding-bottom: 100px;
 }
 
+	.social-paragraph {
+		width: 600px;
+		margin-left: 50px;
+	}
+
+	.social-paragraph p {
+		font-size: 40px;
+	}
+
 .skills {
 	height: 100vh;
 	padding-top: 100px;
