@@ -44,17 +44,16 @@ body {
 	height: 100vh;
 	background: url("./img/mountains1.jpg");
 	background-size: cover;
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 100px;
 }
 
 	.social-paragraph {
-		width: 600px;
 		margin-left: 50px;
 	}
 
 	.social-paragraph p {
-		font-size: 40px;
+		font-size: 35px;
 	}
 
 .skills {
@@ -117,6 +116,11 @@ body {
 		cursor: pointer;
 	}
 
+		@media (min-width: 1200px) {
+   			 .projects-container img {
+      			height: 315px; }
+      		}
+
 .resume {
 	height: 100vh;
 	background: url("./img/wood.jpg") center;
@@ -162,9 +166,21 @@ body {
 	color: white;
 }
 
+	.contact-header {
+		margin-bottom: 80px;
+	}
+
 	.contact-container {
 		width: 80%;
 		margin: auto;
 		text-align: center;
 		font-size: 40px;
 	}
+
+		.contact-container img {
+			margin-top: 50px;
+			margin-right: 20px;
+			width: 100px;
+			border-radius: 50px;
+			border: solid white 2px;
+		}

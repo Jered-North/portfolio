@@ -1,0 +1,86 @@
+body {
+	background: black;
+}
+
+.top-DM-section {
+	height: 80vh;
+}
+
+.top-DM {
+	height: 80vh;
+
+	background: url("./img/DM-top.png") center;
+	background-size: cover;
+	opacity: 0.6;
+}
+
+.top-DM-text {
+	position: relative;
+	margin-bottom: 15px;
+	left: 100px;
+	bottom: 200px;
+	color: white;
+	font-size: 50px;
+}
+
+.top-DM-text2 {
+	position: relative;
+	left: 100px;
+	bottom: 200px;
+	color: white;
+	font-size: 25px;
+}
+
+.info-DM {
+	padding-left: 110px;
+	padding: 60px;
+	height: 90vh;
+	background: white;
+}
+
+.view-button {
+	padding: 8px;
+	width: 150px;
+    position: relative;
+    top: -75px;
+	height: 40px;
+	float: right;
+	font-size: 20px;
+	background: white;
+	border: solid 2px black;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+
+.info-DM-bottom {
+	padding: 60px;
+	height: 50px;
+	background: white;
+}
+
+	.right-top-div {
+		width: 80%;
+		float: right;
+	}
+
+		.right-top-div p {
+			line-height: 26px;
+			margin-bottom: 20px;
+			font-size: 20px;
+		}
+
+	.left-top-div {
+		width: 20%;
+		float: left;
+	}
+
+	.right-bottom-div {
+		width: 80%;
+		float: right;
+	}
+
+	.left-bottom-div {
+		width: 20%;
+		float: left;
+	}
