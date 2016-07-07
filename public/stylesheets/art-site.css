@@ -2,19 +2,19 @@ body {
 	background: black;
 }
 
-.top-DM-section {
+.top-art-site-section {
 	height: 80vh;
 }
 
-.top-DM {
+.top-art-site {
 	height: 80vh;
 
-	background: url("./img/DM-top.png") center;
+	background: url("./images/art-site.png") center;
 	background-size: cover;
 	opacity: 0.6;
 }
 
-.top-DM-text {
+.top-art-site-text {
 	position: relative;
 	margin-bottom: 15px;
 	left: 100px;
@@ -23,7 +23,7 @@ body {
 	font-size: 50px;
 }
 
-.top-DM-text2 {
+.top-art-site-text2 {
 	position: relative;
 	left: 100px;
 	bottom: 200px;
@@ -31,7 +31,7 @@ body {
 	font-size: 25px;
 }
 
-.info-DM {
+.info-art-site {
 	padding-left: 110px;
 	padding: 60px;
 	height: 90vh;
@@ -53,9 +53,9 @@ body {
 	color: black;
 }
 
-.info-DM-bottom {
+.info-art-site-bottom {
 	padding: 60px;
-	height: 50px;
+	height: 100px;
 	background: white;
 }
 
@@ -84,3 +84,13 @@ body {
 		width: 20%;
 		float: left;
 	}
+
+.next-button {
+	width: 200px;
+	float: right;
+}
+
+.arrow {
+	width: 30px;
+	float: right;
+}
