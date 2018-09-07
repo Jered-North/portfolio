@@ -40,7 +40,8 @@ body {
 
 .view-button {
 	padding: 8px;
-	width: 150px;
+	width: 190px;
+	margin-left: 20px;
     position: relative;
     top: -75px;
 	height: 40px;

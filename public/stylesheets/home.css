@@ -46,12 +46,22 @@ body {
 
 .about {
 	height: 100vh;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background: black;
 	color: white;
-	background-size: cover;
-	padding-top: 50px;
-	padding-bottom: 100px;
 }
+	
+	.about-header {
+		margin-bottom: 60px;
+	}
+
+	.about-container {
+		width: 80%;
+		margin: auto;
+		text-align: center;
+		font-size: 40px;
+	}
 
 	.about-paragraph {
 		margin-left: 50px;
@@ -61,31 +71,31 @@ body {
 		font-size: 35px;
 	}
 
-.skills {
+.technology {
 	height: 100vh;
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
 
-	.skills-header {
+	.technology-header {
 		margin-bottom: 60px;
 	}
 
-	.skills-container {
+	.technology-container {
 		width: 80%;
 		margin: auto;
 		text-align: center;
 		font-size: 40px;
 	}
 
-	.skills-images {
+	.technology-images {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		margin-bottom: 75px;
 	}
 
-	.skills-images img {
+	.technology-images img {
 		height: 125px;
 	}
 
@@ -112,22 +122,45 @@ body {
 	.projects-container {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: center;
 	}
-
-	.projects-container img {
+	.projects-container div {
 		height: 257px;
+		width: 440px;
+		margin-right: 30px;
+		margin-bottom: 30px;
 		border: solid white 2px;
 		cursor: pointer;
+		position: relative;
+		background-color: black;
+		color: white;
 	}
 
-		@media (min-width: 1200px) {
-   			 .projects-container img {
-      			height: 315px; }
+	.projects-container div img {
+		height: 100%;
+		width: 100%;
+		position: relative;
+	}
+
+	.projects-container div img:hover {
+		opacity: 0.6;
+	}
+
+
+	#projects-row-2 {
+		justify-content: center;
+	}
+
+		@media (min-width: 1281px) {
+   			.projects-container img {
+      			height: 315px;
+				width: 535px;
+      			}
+
       		}
 
 .resume {
-	height: 100vh;
+	height: 500px;
 	background: url("./images/wood.jpg") center;
 	background-size: cover;
 	padding-top: 100px;
@@ -139,32 +172,6 @@ body {
 		margin-bottom: 80px;
 	}
 
-	.resume-download {
-		width: 240px;
-		height: 100px;
-		margin: auto;
-		padding-top: 35px;
-		background-color: green;
-		border-radius: 20px;
-		border: none;
-		font-size: 30px;
-		text-decoration: none;
-		cursor: pointer;
-	}
-
-	.resume-download a {
-		color: white;
-		text-decoration: none;
-	}
-
-	.resume-download a:visited {
-		color: white;
-	}
-
-	.resume-download a:hover {
-		color: lime;
-	}
-
 	.resume-container {
 		width: 80%;
 		margin: auto;
@@ -172,8 +179,23 @@ body {
 		font-size: 40px;
 	}
 
+	.resume-download a {
+		margin: auto;
+		padding: 30px;
+		background-color: green;
+		border-radius: 20px;
+		border: none;
+		font-size: 30px;
+		text-decoration: none;
+		color: white;
+	}
+
+	.resume-download a:hover {
+		color: blue;
+	}
+
+
 .contact {
-	height: 100vh;
 	background-color: #1f1f1f;
 	padding-top: 100px;
 	padding-bottom: 100px;
