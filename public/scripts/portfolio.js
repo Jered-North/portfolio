@@ -20,4 +20,9 @@ angular.module("portfolio", ["ui.router"])
 				templateUrl: "templates/devhousing.html"
 			})
 
+			.state('plumbersstock', {
+				url: "/plumbersstock",
+				templateUrl: "templates/plumbersstock.html"
+			})
+
 	});
