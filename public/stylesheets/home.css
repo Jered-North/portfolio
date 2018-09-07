@@ -4,8 +4,11 @@ body {
 }
 
 .main-header {
+	width: 98.9vw;
+	position: fixed;
 	padding-top: 15px;
     padding-bottom: 15px;
+    z-index: 20;
 	background-color: black;
 }
 	nav {
@@ -13,6 +16,7 @@ body {
 	}
 
 	.nav-links {
+		text-decoration: none;
 		color: white;
 		margin-right: 30px;
 		font-size: 14px;
@@ -40,19 +44,20 @@ body {
 		text-align: center;
 	}
 
-.social {
+.about {
 	height: 100vh;
-	background: url("./images/mountains1.jpg");
+	background: black;
+	color: white;
 	background-size: cover;
 	padding-top: 50px;
 	padding-bottom: 100px;
 }
 
-	.social-paragraph {
+	.about-paragraph {
 		margin-left: 50px;
 	}
 
-	.social-paragraph p {
+	.about-paragraph p {
 		font-size: 35px;
 	}
 
@@ -112,7 +117,7 @@ body {
 
 	.projects-container img {
 		height: 257px;
-		border: solid black 2px;
+		border: solid white 2px;
 		cursor: pointer;
 	}
 
@@ -147,8 +152,17 @@ body {
 		cursor: pointer;
 	}
 
+	.resume-download a {
+		color: white;
+		text-decoration: none;
+	}
+
 	.resume-download a:visited {
 		color: white;
+	}
+
+	.resume-download a:hover {
+		color: lime;
 	}
 
 	.resume-container {
