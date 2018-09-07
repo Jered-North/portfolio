@@ -8,8 +8,8 @@ body {
 
 .top-DM {
 	height: 80vh;
-
 	background: url("./images/DM-top.png") center;
+	background-position-y: 40px;
 	background-size: cover;
 	opacity: 0.6;
 }
@@ -51,6 +51,11 @@ body {
 	text-decoration: none;
 	text-align: center;
 	color: black;
+}
+
+.view-button:hover {
+	background-color: black;
+	color: white;
 }
 
 .info-DM-bottom {

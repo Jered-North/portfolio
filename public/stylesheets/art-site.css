@@ -8,9 +8,9 @@ body {
 
 .top-art-site {
 	height: 80vh;
-
 	background: url("./images/art-site.png") center;
 	background-size: cover;
+	background-position-y: 40px;
 	opacity: 0.6;
 }
 
@@ -51,6 +51,11 @@ body {
 	text-decoration: none;
 	text-align: center;
 	color: black;
+}
+
+.view-button:hover {
+	background-color: black;
+	color: white;
 }
 
 .info-art-site-bottom {
