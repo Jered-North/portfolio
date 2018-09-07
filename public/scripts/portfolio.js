@@ -3,8 +3,8 @@ angular.module("portfolio", ["ui.router"])
 	.config(function($stateProvider, $urlRouterProvider) {
 
 		$urlRouterProvider.otherwise('/home');
-		$stateProvider
 
+		$stateProvider
 			.state('home', {
 				url: "/home",
 				templateUrl: "templates/home.html"
