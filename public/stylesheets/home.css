@@ -26,9 +26,10 @@ body {
 .top {
 	height: 100vh;
 	background-color: grey;
+	color: white;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background: url("./images/creek.JPG");
+	background: url("./images/office2.JPG");
 	background-size: cover;
 }
 
@@ -75,28 +76,46 @@ body {
 	height: 100vh;
 	padding-top: 100px;
 	padding-bottom: 100px;
+	min-width: 980px;
 }
 
 	.technology-header {
 		margin-bottom: 60px;
+		text-align: center;
 	}
 
 	.technology-container {
 		width: 80%;
 		margin: auto;
-		text-align: center;
 		font-size: 40px;
 	}
 
-	.technology-images {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		margin-bottom: 75px;
+	.technology-images-left {
+		display: inline-block;
+		float: left;
+		width: 50%;
+		min-width: 390px;
 	}
 
-	.technology-images img {
-		height: 125px;
+	.technology-images-right {
+		display: inline-block;
+		float: right;
+		width: 50%;
+		min-width: 390px;
+	}
+
+	.technology-images-left img, .technology-images-right img {
+		height: 75px;
+		width: 75px;
+	}
+
+	.technology-images-left li, .technology-images-right li {
+		padding-left: 140px;
+	}
+
+	.technology-images-left p, .technology-images-right p {
+		display: inline-block;
+		font-size: 20px;
 	}
 
 .portfolio {
@@ -109,7 +128,7 @@ body {
 }
 
 	.portfolio-header {
-		margin-bottom: 75px;
+		margin-bottom: 55px;
 	}
 
 	.portfolio-container {
