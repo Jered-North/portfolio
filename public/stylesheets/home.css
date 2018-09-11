@@ -49,7 +49,7 @@ body {
 	height: 768px;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background: black;
+	background: #242323;
 	color: white;
 }
 	
@@ -75,6 +75,7 @@ body {
     	float: left;
     	height: 500px;
     	width: 50%;
+    	padding-bottom: 100px;
 	}
 
 	.about-right {
@@ -84,8 +85,7 @@ body {
     	float: right;
     	height: 500px;
     	width: 50%;
-    	padding-top: 80px;
-    	padding-bottom: 80px;
+    	padding-top: 100px;
 	}
 
 	.about-picture {
@@ -93,6 +93,8 @@ body {
 	}
 
 	.about-paragraph {
+		font-size: 20px;
+		line-height: 24px;
 		display: inline-block;
 		padding-right: 25px;
     	margin-left: 20px;
